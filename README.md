@@ -142,7 +142,7 @@ element adds support for mellanox infiniband hardware to both the deploy
 ramdisk and the built images.
 
 Images must specify a base distribution image element. Currently base
-distribution elements exist for fedora, rhel, and ubuntu.  Other
+distribution elements exist for fedora, rhel, and ubuntu. Other
 distributions may be added in future, the infrastructure deliberately
 makes few assumptions about the exact operating system in use.
 The base image has opensshd running (a new key generated on first boot)
@@ -209,7 +209,7 @@ Conform to the following conventions:
 ### Phase Subdirectories ###
 
 Make as many of the following subdirectories as you need, depending on what
-part of the process you need to customise.  The subdirectories are executed in
+part of the process you need to customise. The subdirectories are executed in
 the order given here. Scripts within the subdirectories should be named with a
 two-digit numeric prefix, and are executed in numeric order.
 
